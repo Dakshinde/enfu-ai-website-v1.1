@@ -62,3 +62,26 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #0052cc;
 }
+
+.animated-gradient {
+  background: linear-gradient(
+    220deg, 
+    #060010,       /* Dark Background */
+    #2a0a4a,       /* New Dark Purple */
+    #5686E4,       /* Original Purple */
+    #46A2E0,       /* Original Cyan */
+    #0d021a,       /* New Darker Purple */
+    #060010        /* Dark Background */
+  );
+  background-size: 300% 300%;
+  animation: gradient-flow-complex 20s ease infinite;
+}
+
+@keyframes gradient-flow-complex {
+  0%   { background-position: 0% 50%; }
+  25%  { background-position: 100% 50%; }
+  50%  { background-position: 50% 100%; }
+  75%  { background-position: 0% 25%; }
+  100% { background-position: 0% 50%; }
+}
+
