@@ -97,8 +97,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ---
 
-## ✉️ Contact
-
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-
-Project Link: [https://github.com/YourUsername/enfu-ai-landing-page](https://github.com/YourUsername/enfu-ai-landing-page)
