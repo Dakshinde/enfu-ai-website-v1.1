@@ -1,6 +1,7 @@
 import React from 'react';
 import { AnimatedWords } from './AnimatedWords';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 
 export const HeroSection = () => {
     const bodyText = `EnFu AI is a next-generation artificial intelligence company dedicated to building intelligent, secure, and future-ready solutions. We empower creators, businesses, and innovators to thrive in the digital era.`;
@@ -28,9 +29,11 @@ export const HeroSection = () => {
                         delay={20}
                         duration={1.0} // Added the duration prop back
                     />
+                    <Link to = "/about" classname="inline-block">
                     <Button className={`bg-gradient-to-r from-accent-purple to-accent-cyan shadow-xl hover:shadow-[0_0_30px_rgba(70,162,224,0.7)]`}>
                         Learn More
                     </Button>
+                    </Link>
                 </div>
                 
             </div>
